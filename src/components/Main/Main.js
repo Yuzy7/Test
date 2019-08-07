@@ -1,5 +1,6 @@
   import React from 'react'
   import './Main.css'
+  import Background from './background.jpg'
   
   class Main extends React.Component{
       constructor(props){
@@ -16,7 +17,7 @@
       render(){
           return (
             <main>
-              <div className="jumbotron">
+              <div className="jumbotron" style={{backgroundImage: `url(${Background})`}}>
                 <div className="container">  
                   <div className="header">  
                     <h1>Well-informed</h1>
