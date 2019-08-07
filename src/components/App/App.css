@@ -72,7 +72,7 @@ html, body {
   }
 
   main h1 {
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .jumbotron {
@@ -84,7 +84,7 @@ html, body {
   }
 
   .serviceList {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .service {
