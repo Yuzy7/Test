@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/static/media/background.46d4f952.jpg"
   },
   {
-    "revision": "5261b82abbd733940125",
-    "url": "/static/css/main.71d583f3.chunk.css"
+    "revision": "032dfedc4cffa61fac76",
+    "url": "/static/css/main.2e8100c5.chunk.css"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.c5541365.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "4a4ce9cb35112938fabb",
-    "url": "/static/js/2.f90ae535.chunk.js"
+    "revision": "cea3d6895103381c3f3c",
+    "url": "/static/js/2.bb0256d5.chunk.js"
   },
   {
     "revision": "396f37293d1b272b616967077f032e0a",
     "url": "/static/media/logo.396f3729.png"
   },
   {
-    "revision": "5261b82abbd733940125",
-    "url": "/static/js/main.858a154e.chunk.js"
+    "revision": "032dfedc4cffa61fac76",
+    "url": "/static/js/main.a37b360e.chunk.js"
   },
   {
     "revision": "78ad0f0ae6d307dd3c40ea55e83de6ca",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Culture influencer.8543b26c.jpg"
   },
   {
-    "revision": "8651445cb942b9e61ecd7156653769c6",
+    "revision": "06835600820d8073855653e267f892ee",
     "url": "/index.html"
   }
 ];
