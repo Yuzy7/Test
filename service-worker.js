@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/t1/precache-manifest.9c17dfa3b29162e384ebf53e656f0424.js"
+  "yuzy7.github.io/t1/precache-manifest.cdda6fec1743bbda894b879ed4a66e6e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/t1/index.html", {
+workbox.routing.registerNavigationRoute("yuzy7.github.io/t1/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
