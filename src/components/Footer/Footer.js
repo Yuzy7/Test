@@ -49,7 +49,7 @@
                   <div className="company group">
                     <header>{intl.get("company")}</header><br/>
                     <ul className="footer-links">
-                      <li><Link to={`${process.env.PUBLIC_URL}/#news`} className="link" target="_self">{intl.get("press")}</Link></li>
+                      <li><Link to='/' className="link" target="_self">{intl.get("press")}</Link></li>
                       <li><Link to='/service' className="link" target="_self">{intl.get("service")}</Link></li>
                     </ul>
                   </div>
@@ -62,15 +62,6 @@
                   </div>
                 </section>
   
-                <section className="signup">
-                  <div className="emailSignup">
-                    <p>{intl.get("sign_up_for_newsletters")}</p>
-                    <form action='' onSubmit={this.handleSubmit} autoComplete="on" className="emailCapture">
-                      <input type="email" name="email" ref="Email" placeholder={intl.get("enter_your_email")} autoComplete="on" required onChange={this.handleChange} onKeyPress={this.handleKeyPress} id="email" className="email" />
-                      <input type="submit" className="button" value={intl.get("sign_up") }/>                      
-                    </form>
-                  </div>
-                </section>
               </div>
   
               <hr/>
@@ -101,3 +92,15 @@
   }
   
   export default Footer;
+
+  /*
+                <section className="signup">
+                  <div className="emailSignup">
+                    <p>{intl.get("sign_up_for_newsletters")}</p>
+                    <form action='' onSubmit={this.handleSubmit} autoComplete="on" className="emailCapture">
+                      <input type="email" name="email" ref="Email" placeholder={intl.get("enter_your_email")} autoComplete="on" required onChange={this.handleChange} onKeyPress={this.handleKeyPress} id="email" className="email" />
+                      <input type="submit" className="button" value={intl.get("sign_up") }/>                      
+                    </form>
+                  </div>
+                </section>
+                */
