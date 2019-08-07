@@ -1,0 +1,41 @@
+.jumbotron {
+  height: 450px;
+  background-image: url("./background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+main h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.header{
+  padding-top: 140px;
+}

@@ -1,0 +1,131 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0px;
+  margin-top: 0px
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin: 10px;
+}
+
+footer .row {
+  display: inline-block;
+  width: 90%;
+  height: 70px;
+  margin: 20px 10px 0px 10px;
+}
+
+hr {
+  border-top-color:#fff;
+  opacity: 1;
+  margin: 50px 50px 0 50px;
+}
+
+footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.groups{
+  /*position: absolute;
+  left: 90px;*/
+  float: left;
+}
+
+.group {
+  color: #777;
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  text-align: left;
+  margin: 0 20px 0 0;
+}
+
+.footer-links li{
+  
+}
+
+.link {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.signup {
+  /*position: absolute;
+  right: 90px;*/
+  float: right;
+}
+
+.emailSignup p {
+  float: center;
+}
+
+.emailCapture .button {
+  margin: 10px;
+}
+
+.emailCapture .button:hover {
+  background: rgb(196, 192, 192);
+}
+
+.legal{
+  /*position: absolute;
+  left: 80px;*/
+  float: left;
+}
+
+.social {
+  /*position: absolute;
+  right: 75px;*/
+  float: right;
+}
+
+.social-icons li
+{
+  display:inline-block;
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color: white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a:hover {
+  opacity: 1;
+  color:#818a91;
+}
+
+.social-icons a.facebook
+{
+  background-color:#3b5998;
+}
+.social-icons a.twitter
+{
+  background-color:#00aced;
+}
+.social-icons a.instagram
+{
+  background-color:#ea4c89;
+}
+.social-icons a.linkedin
+{
+  background-color:#007bb6
+}

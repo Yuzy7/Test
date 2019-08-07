@@ -1,0 +1,181 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/* Reusable Component - Image Container */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 30px 0;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333; 
+}
+
+@media (max-width: 900px) {
+  .navContent {
+    margin: 50px 70px 0px 0px;
+  }
+
+  .product {
+    height: 570px;
+  }
+
+  .product .image {
+    width: 90%;
+  }
+
+  .product .details{
+    text-align: center;
+    width: 90%;
+  }
+
+  .product p {
+    text-align: center;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .navLogo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo{
+    width: 10%;
+    float: center;
+  }
+
+  .navContent{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  main {
+    top: 70px;
+  }
+
+  main h1 {
+    font-size: 30px;
+  }
+
+  .jumbotron {
+    height: 400px;
+  }
+
+  .btn-main {
+    font-size: 15px;
+  }
+
+  .productList {
+    margin-top: 40px;
+  }
+
+  .product {
+    height: 400px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+
+  footer {
+    height: 330px;
+  }
+
+  footer .row {
+    display: block;
+  }
+
+  footer section {
+    width: 100%;
+  }
+
+  footer .group {
+    margin: 10px;
+    text-align: center;
+  }
+
+  hr {
+    margin: 120px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  main h1 {
+    font-size: 20px;
+  }
+
+  .product {
+    height: 300px;
+  }
+
+  footer {
+    height: 60%;
+  }
+
+  .social-icons a{
+    line-height:30px;
+    width:30px;
+    height:30px;
+  }
+}

@@ -1,0 +1,25 @@
+.brief h2 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 140px;
+}
+
+.brief h3 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.brief p {
+  padding: 10px 130px;
+  font-size: 20px;
+  text-align: left;
+}
