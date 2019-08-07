@@ -28,6 +28,10 @@ html, body {
     margin: 50px 70px 0px 0px;
   }
 
+  main h1 {
+    font-size: 55px;
+  }
+
   .brief p {
     padding: 10px 50px;
   }
@@ -72,7 +76,7 @@ html, body {
   }
 
   main h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .jumbotron {
@@ -115,7 +119,7 @@ html, body {
 
 @media screen and (max-width: 350px) {
   main h1 {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .service {
