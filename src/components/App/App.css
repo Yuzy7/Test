@@ -91,6 +91,7 @@ html, body {
   .service p {
     text-align: center;
     padding: 0px;
+    margin: 0px;
   }
 
   footer {
