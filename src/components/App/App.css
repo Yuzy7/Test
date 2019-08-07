@@ -46,7 +46,6 @@ html, body {
   }
 
   .service p {
-    text-align: center;
     padding: 0px 20px;
   }
 }
@@ -84,14 +83,12 @@ html, body {
     padding: 10px 50px;
   }
 
-  .service {
-    height: 400px;
+  .serviceList {
+    margin-bottom: 100px;
   }
 
-  .service p {
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
+  .service {
+    height: 400px;
   }
 
   footer {
@@ -118,7 +115,11 @@ html, body {
 
 @media (max-width: 350px) {
   main h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .serviceList {
+    margin-bottom: 200px;
   }
 
   .service {
